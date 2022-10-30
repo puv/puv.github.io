@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  },
+  "name": "puv.bar",
+  "description": "Main website, nothing more, nothing less.",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Test\"",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/puv/puv.github.io.git"
+  },
+  "keywords": [
+    "puv"
+  ],
+  "author": "puv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puv/puv.github.io/issues"
+  },
+  "homepage": "https://github.com/puv/puv.github.io#readme"
+}

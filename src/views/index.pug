@@ -1,0 +1,19 @@
+html 
+    head 
+        link(rel="stylesheet", href="/css/style.css")
+        script(src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer)
+    body 
+        video(autoplay muted loop id="myVideo")
+            source(src="/video/background.mp4" type="video/mp4")
+        .wrapper
+            .content
+                .avatar
+                    img(src="https://avatars.githubusercontent.com/u/16114858")
+                .info
+                    .title @puv
+                    .description 
+                        label Full-Stack Developer / CS Student
+                        .buttons 
+                            a(href="https://github.com/puv") Github
+                label.linked If a platform is not linked here, the account is probably fake.
+        div.cf-turnstile(data-sitekey="0x4AAAAAAABCo8xu8u_Whqb0" data-callback="javascriptCallback")
