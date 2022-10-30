@@ -1,10 +1,15 @@
 html 
     head 
+        title puv.bar
+        meta(content='puv.bar' property='og:title')
+        meta(content='@puv' property='og:description')
+        meta(content='https://puv.bar' property='og:url')
+        meta(content='https://avatars.githubusercontent.com/u/16114858' property='og:image')
+        meta(content='#ab4eed' data-react-helmet='true' name='theme-color')
         link(rel="stylesheet", href="/css/style.css")
         script(src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer)
     body 
-        video(autoplay muted loop id="myVideo")
-            source(src="/video/background.mp4" type="video/mp4")
+        img.bg(src="/gif/background.gif", alt="", srcset="")
         .wrapper
             .content
                 .avatar
